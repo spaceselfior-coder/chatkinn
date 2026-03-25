@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+}
+
+/* Navbar */
+.navbar {
+    background: white;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-content {
+    width: 100%;
+    max-width: 935px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar {
+    background: #efefef;
+    border: 1px solid #dbdbdb;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+/* Main Container */
+.main-container {
+    display: flex;
+    justify-content: center;
+    max-width: 935px;
+    margin: 30px auto;
+}
+
+/* Post Styling */
+.feed { width: 600px; }
+
+.post {
+    background: white;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+}
+
+.post-header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.post-header img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-img { width: 100%; }
+
+.post-footer { padding: 10px; }
+
+.actions span {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 300px;
+    margin-left: 30px;
+}
+
+.profile-summary {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.suggestion {
+    margin-top: 10px;
+    font-size: 14px;
+}
